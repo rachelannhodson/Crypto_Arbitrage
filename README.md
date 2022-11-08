@@ -29,7 +29,7 @@ jupyter lab
 then JupyterLab will automatically open in your browswer. Use the left side menu bar to search for the `crypto_arbitrage.ipynb` file. Open this file. Add your personalized CSV files with the data you'd like to anaylze to either the same folder OR you should know what folder they're in on your local computer so that you'll be able to access them within the program. Then you can read your CSV files and use any of the provided code to anaylize the files in order to get the resulting information that you need.
 
 See an example of a plot with data from two different CSV files overlapped below:
-![](
+![example_1](usage_image_1.png)
 
 ---
 
