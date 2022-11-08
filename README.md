@@ -12,27 +12,24 @@ This application was written in Python 3.9.12. This application is dependent on 
 
 ## Installation Guide
 
-To install python fire via your CLI terminal:
+If you have [Anaconda](https://www.anaconda.com/products/distribution) downloaded, then pandas and JupyterLab will be part of your package. You can check that they're ready to use by typing the following in your CLI terminal:
 ```python
-pip install fire
-```
-
-To install python questionary via your CLI terminal:
-```python
-pip install questionary
+conda list pandas
+conda list jupyterlab
 ```
 
 ---
 
 ## Usage
 
-When you run the app.py file,
+Open your CLI terminal and type
 ```python
-python app.py
+jupyter lab
 ```
-you will be presented with several questions. Please input your personal answers--see an example below. The CSV file you create will be a list of the loans which you qualify for from the original list of loans, `daily_rate_sheet.csv`. 
+then JupyterLab will automatically open in your browswer. Use the left side menu bar to search for the `crypto_arbitrage.ipynb` file. Open this file. Add your personalized CSV files with the data you'd like to anaylze to either the same folder OR you should know what folder they're in on your local computer so that you'll be able to access them within the program. Then you can read your CSV files and use any of the provided code to anaylize the files in order to get the resulting information that you need.
 
-![screenshot of CLI with program example](readme.md_image_1.png)
+See an example of a plot with data from two different CSV files overlapped below:
+![](
 
 ---
 
