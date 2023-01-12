@@ -1,12 +1,16 @@
-# Crypto Arbitrage, Module 3 Challenge
+# Crypto Arbitrage
 
-This is a JupyterLab application in which a trader or a crypto currency company can upload two CSV files of their arbitrage trading history in order to anaylize the two files against one another. This analysis will provide data showing whether the trades were profitable or not and on which days. This analysis will also plot the data on line graphs, which will help the user visualise their upward or downward trend. The user will be able to determine whether their profitability has increase or decreased over time.
+This is a JupyterLab application in which a trader or a crypto currency company can upload two .`csv` files of their arbitrage trading history in order to anaylize the two files against one another. This analysis will provide data showing whether the trades were profitable or not and on which days. This analysis will also plot the data on line graphs, which will help the user visualise their upward or downward trend. The user will be able to determine whether their profitability has increase or decreased over time.
 
 ---
 
 ## Technologies
 
-This application was written in Python 3.9.12. This application is dependent on the [pandas](https://pandas.pydata.org/), [matplotlib](https://matplotlib.org/), and [JupyterLab](https://jupyter.org/).
+This application was written in Python 3.9.12. This application is dependent on the following libraries:
+* [pandas](https://pandas.pydata.org/)
+* [pathlib](https://docs.python.org/3/library/pathlib.html)
+* [matplotlib](https://matplotlib.org/)
+* [JupyterLab](https://jupyter.org/)
 
 ---
 
@@ -15,6 +19,8 @@ This application was written in Python 3.9.12. This application is dependent on 
 If you have [Anaconda](https://www.anaconda.com/products/distribution) downloaded, then pandas and JupyterLab will be part of your package. You can check that they're ready to use by typing the following in your CLI terminal:
 ```python
 conda list pandas
+conda list pathlib
+conda list matplotlib
 conda list jupyterlab
 ```
 
@@ -35,7 +41,7 @@ See an example of a plot with data from two different CSV files overlapped below
 
 ## Contributors
 
-Rachel Ann Hodson, rachelannhodson@gmail.com
+[Rachel Ann Hodson](https://www.linkedin.com/in/rachelannhodson/), rachelannhodson@gmail.com
 
 ---
 
